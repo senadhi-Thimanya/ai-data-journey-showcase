@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/hero-image-new.jpg";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -75,7 +75,7 @@ const Hero = () => {
               <div className="absolute inset-2 rounded-full overflow-hidden shadow-elegant">
                 <img 
                   src={heroImage} 
-                  alt="Alex Chen - AI & Data Science Student"
+                  alt="Senadhi Chandrasekara - AI & Data Science Student"
                   className="w-full h-full object-cover"
                 />
               </div>
