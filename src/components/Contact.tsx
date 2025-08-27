@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex.chen@university.edu",
-      href: "mailto:alex.chen@university.edu"
+      value: "senadhithimanya@gmail.com",
+      href: "mailto:senadhithimanya@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+94 76 703 3151",
+      href: "tel:+94767033151"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Colombo, Sri Lanka",
       href: null
     }
   ];
@@ -28,20 +28,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/alexchen",
-      username: "@alexchen"
+      href: "https://github.com/senadhi-Thimanya",
+      username: "@senadhi-Thimanya"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/alexchen",
-      username: "Alex Chen"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com/alexchen",
-      username: "@alexchen_ai"
+      href: "https://linkedin.com/in/senadhi-chandrasekara/",
+      username: "Senadhi Chandrasekara"
     }
   ];
 
@@ -104,7 +98,7 @@ const Contact = () => {
                     className="flex items-center gap-2 bg-primary hover:bg-primary/90"
                     asChild
                   >
-                    <a href="mailto:alex.chen@university.edu">
+                    <a href="mailto:senadhithimanya@gmail.com">
                       <Mail className="w-4 h-4" />
                       Send Email
                     </a>
@@ -136,10 +130,10 @@ const Contact = () => {
                   </p>
                   <div className="space-y-2">
                     <p className="text-sm text-muted-foreground">
-                      <strong>Preferred Locations:</strong> San Francisco Bay Area, Remote
+                      <strong>Preferred Locations:</strong> Colombo
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      <strong>Interests:</strong> Machine Learning Engineering, Data Analytics, AI Research
+                      <strong>Interests:</strong> AI/ML Engineering, AI/ML Research
                     </p>
                   </div>
                 </div>

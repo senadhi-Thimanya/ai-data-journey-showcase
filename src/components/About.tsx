@@ -46,14 +46,14 @@ const About = () => {
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold text-foreground">My Journey</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm currently a third-year undergraduate student majoring in Computer Science 
-                  with a focus on Artificial Intelligence and Data Science. My academic journey 
+                  I'm currently a first-year undergraduate student majoring in Artificial 
+                  Intelligence and Data Science. My academic journey 
                   has been driven by curiosity about how we can leverage data and intelligent 
                   algorithms to solve complex real-world problems.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   Through coursework, personal projects, and research opportunities, I've developed 
-                  a strong foundation in machine learning, statistical analysis, and software 
+                  a strong foundation in machine learning and software 
                   development. I'm particularly interested in the ethical implications of AI 
                   and ensuring that technology serves everyone equitably.
                 </p>
@@ -62,12 +62,9 @@ const About = () => {
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold text-foreground">Education</h3>
                 <div className="bg-card p-6 rounded-lg shadow-card">
-                  <h4 className="font-semibold text-lg">Bachelor of Science in Computer Science</h4>
-                  <p className="text-primary font-medium">University of Technology • 2022 - 2026</p>
-                  <p className="text-muted-foreground mt-2">
-                    Focus: Artificial Intelligence & Data Science<br/>
-                    GPA: 3.8/4.0 • Dean's List
-                  </p>
+                  <h4 className="font-semibold text-lg">BSc (Hons) Artificial Intelligence and Data Science</h4>
+                  <p className="text-primary font-medium">Robert Gordon University • 2024 - 2028</p>
+                  <p className="text-muted-foreground mt-2"></p>
                 </div>
               </div>
             </div>
@@ -79,7 +76,7 @@ const About = () => {
                 <div className="space-y-3">
                   <h4 className="font-medium text-foreground">Languages</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["Python", "R", "SQL", "JavaScript", "Java"].map((skill) => (
+                    {["Python", "R", "SQL", "JavaScript", "Java", "HTML", "CSS"].map((skill) => (
                       <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                         {skill}
                       </span>
@@ -87,10 +84,10 @@ const About = () => {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <h4 className="font-medium text-foreground">Frameworks</h4>
+                  <h4 className="font-medium text-foreground">Tools</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "React"].map((skill) => (
-                      <span key={skill} className="px-3 py-1 bg-accent/10 text-accent-foreground rounded-full text-sm font-medium">
+                    {["IntelliJ", "PyCharm", "VS Code", "MySQL", "Figma"].map((skill) => (
+                      <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                         {skill}
                       </span>
                     ))}
