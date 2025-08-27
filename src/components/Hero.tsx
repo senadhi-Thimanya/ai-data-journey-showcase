@@ -46,8 +46,7 @@ const Hero = () => {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline"
-                className="border-white/30 text-white hover:bg-white/10 transition-smooth"
+                className="bg-white text-primary hover:bg-white/90 transition-smooth shadow-glow"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Get In Touch
@@ -56,13 +55,13 @@ const Hero = () => {
             
             {/* Social Links */}
             <div className="flex gap-6 justify-center lg:justify-start">
-              <a href="https://github.com" className="text-white/70 hover:text-white transition-smooth">
+              <a href="https://github.com/senadhi-Thimanya" className="text-white/70 hover:text-white transition-smooth" target="_blank">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="text-white/70 hover:text-white transition-smooth">
+              <a href="https://www.linkedin.com/in/senadhi-chandrasekara/" className="text-white/70 hover:text-white transition-smooth" target="_blank">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:alex@example.com" className="text-white/70 hover:text-white transition-smooth">
+              <a href="mailto:senadhithimanya@gmail.com" className="text-white/70 hover:text-white transition-smooth">
                 <Mail size={24} />
               </a>
             </div>
@@ -75,7 +74,7 @@ const Hero = () => {
               <div className="absolute inset-2 rounded-full overflow-hidden shadow-elegant">
                 <img 
                   src={heroImage} 
-                  alt="Alex Chen - AI & Data Science Student"
+                  alt="Senadhi Chandrasekara - AI & Data Science Student"
                   className="w-full h-full object-cover"
                 />
               </div>

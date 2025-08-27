@@ -9,8 +9,7 @@ const Navigation = () => {
   const navItems = [
     { label: "Home", href: "#hero" },
     { label: "About", href: "#about" },
-    { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" }
+    { label: "Projects", href: "#projects" }
   ];
 
   // Handle scroll to update active section
