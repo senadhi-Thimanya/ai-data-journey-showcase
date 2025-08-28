@@ -1,9 +1,8 @@
 import * as React from "react"
+import * as ToastPrimitives from "@radix-ui/react-toast"
 
-import type {
-  ToastActionElement,
-  ToastProps,
-} from "@/components/ui/toast"
+export type ToastProps = React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root>
+export type ToastActionElement = React.ReactElement
 
 const TOAST_LIMIT = 1
 const TOAST_REMOVE_DELAY = 1000000
