@@ -1,32 +1,31 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, Calendar } from "lucide-react";
-import aiProject from "@/assets/ai-project.jpg";
-import dataProject from "@/assets/data-project.jpg";
+import aiProject from "@/assets/ai-project.png";
 
 const Projects = () => {
   const projects = [
     {
       title: "Neural Network Image Classifier",
-      description: "Built a deep learning model using TensorFlow to classify medical images with 94% accuracy. Implemented data augmentation and transfer learning techniques to optimize performance.",
+      description: "Built a deep learning model using TensorFlow to classify Fruits and Vegetables images with 96% accuracy. Implemented data augmentation to optimize performance.",
       image: aiProject,
-      technologies: ["Python", "TensorFlow", "OpenCV", "Jupyter"],
-      github: "https://github.com/alexchen/image-classifier",
-      demo: "https://image-classifier-demo.com",
-      date: "October 2024",
+      technologies: ["Python", "TensorFlow", "Keras API", "Jupyter"],
+      github: "https://github.com/senadhi-Thimanya/image-classification-neural-network-model",
+      demo: "https://image-classification-neural-network-model.streamlit.app/",
+      date: "September 2025",
       featured: true
     },
     {
-      title: "Customer Segmentation Analysis",
-      description: "Performed comprehensive customer segmentation using K-means clustering and RFM analysis. Created interactive dashboards to visualize customer behavior patterns.",
-      image: dataProject,
-      technologies: ["Python", "Scikit-learn", "Plotly", "Pandas"],
-      github: "https://github.com/alexchen/customer-segmentation",
-      demo: "https://customer-analysis-dashboard.com",
-      date: "September 2024",
-      featured: true
-    },
-    {
+      title: "AI Travel Guide Sri Lanka",
+      description: "A serverless langchain based AI travel assistant that answers questions about Sri Lankan tourism using Retrieval-Augmented Generation (RAG) with LangChain.js, Azure AI, and PDF-based travel documents.",
+      image: null,
+      technologies: ["Azure", "Langchain", "RAG", "azd Templates"],
+      github: "https://github.com/senadhi-Thimanya/AI-Travel-Guide-for-Sri-Lanka",
+      demo: null,
+      date: "June 2025",
+      featured: false
+    }
+    /*{
       title: "Sentiment Analysis API",
       description: "Developed a REST API that analyzes sentiment from text data using natural language processing. Deployed on AWS with automated CI/CD pipeline.",
       image: null,
@@ -37,15 +36,15 @@ const Projects = () => {
       featured: false
     },
     {
-      title: "Stock Price Prediction Model",
-      description: "Created an LSTM neural network to predict stock prices using historical data and market indicators. Achieved 15% better accuracy than baseline models.",
-      image: null,
-      technologies: ["Python", "PyTorch", "yfinance", "Streamlit"],
-      github: "https://github.com/alexchen/stock-prediction",
-      demo: "https://stock-predictor-app.com",
-      date: "July 2024",
+      title: "Customer Segmentation Analysis",
+      description: "Performed comprehensive customer segmentation using K-means clustering and RFM analysis. Created interactive dashboards to visualize customer behavior patterns.",
+      image: dataProject,
+      technologies: ["Python", "Scikit-learn", "Plotly", "Pandas"],
+      github: "https://github.com/alexchen/customer-segmentation",
+      demo: "https://customer-analysis-dashboard.com",
+      date: "September 2024",
       featured: false
-    }
+    }*/
   ];
 
   const featuredProjects = projects.filter(project => project.featured);

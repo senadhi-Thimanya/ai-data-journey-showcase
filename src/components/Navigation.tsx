@@ -46,7 +46,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[hsl(var(--card)/0.95)] backdrop-blur-md border-b border-border shadow-md">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -115,6 +115,7 @@ const Navigation = () => {
                 Get In Touch
               </Button>
             </div>
+
           </div>
         )}
       </div>
